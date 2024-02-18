@@ -1,17 +1,17 @@
 import cmath
-x = "Hello"
-y = True
-z = 10.5
-a = [1,2,3,4,5]
-b = (1,2,3,4,5)
-c = {"name":"John","age":30}
+x = "Hello"  # Example: a string
+y = True     # Example: a boolean
+z = 10.5     # Example: a float
+a = [1, 2, 3, 4, 5]  # Example: a list
+b = (1, 2, 3, 4, 5)  # Example: a tuple
+c = {"name": "John", "age": 30}  # Example: a dictionary
 
-print("x ,",type(x))
-print("y ," ,type(y))
-print("z ,",type(z))
-print("a ,",type(a))
-print("b ,",type(b))
-print("c ,",type(c))
+print("x ,", type(x))  # Output: x , <class 'str'>
+print("y ,", type(y))  # Output: y , <class 'bool'>
+print("z ,", type(z))  # Output: z , <class 'float'>
+print("a ,", type(a))  # Output: a , <class 'list'>
+print("b ,", type(b))  # Output: b , <class 'tuple'>
+print("c ,", type(c))  # Output: c , <class 'dict'>
 
 # Integers
 my_integer = 42
